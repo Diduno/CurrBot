@@ -1,0 +1,2 @@
+# CurrBot
+ currency bot
