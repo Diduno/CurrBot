@@ -8,11 +8,18 @@ A Discord currency bot for \[nation name]
 4. Create a file called `cfg.json`, paste the following JSON into it and edit it to your needs
     ```json
     {
-        "symbol": "$",
-        "token": "<replace this>"
+        "symbol": "£",
+        "adminPermission": "MANAGE_GUILD",
+        "bot": {
+            "token": "replace",
+            "id": "000000000000000000"
+        }
     }
     ```
     `symbol`: The bot's currency's symbol
-    `token`: [A Discord bot token](https://www.google.com/search?q=how+to+get+a+discord+bot+token)
-
-5. `npm test` if you're developing or `npm start` if you just need to run the bot
+    `adminPermission`: A [permission](https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=s-FLAGS) that a user needs to use admin commands
+    `bot`: {
+      `token`: [A Discord bot token](https://www.google.com/search?q=how+to+get+a+discord+bot+token)
+      `id`: That bot's client ID
+    }
+5. `npm test` if you're developing (requires `npm install nodemon -g`) or `npm start` if you just need to run the bot
