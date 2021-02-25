@@ -1,0 +1,25 @@
+{
+  "name": "currbot",
+  "version": "1.0.0",
+  "description": "currency bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diduno/CurrBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU GPLv3",
+  "bugs": {
+    "url": "https://github.com/Diduno/CurrBot/issues"
+  },
+  "homepage": "https://github.com/Diduno/CurrBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "sequelize": "^6.5.0"
+  }
+}
