@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/Diduno/CurrBot#readme",
   "dependencies": {
-    "discord.js": "^12.5.1",
+    "discord-slash-commands-client": "^1.1.1",
+    "discord.js": "git+https://github.com/MatteZ02/discord.js.git",
     "sequelize": "^6.5.0",
     "sqlite3": "^5.0.2"
   }
