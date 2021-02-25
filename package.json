@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Diduno/CurrBot#readme",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "sequelize": "^6.5.0"
+    "sequelize": "^6.5.0",
+    "sqlite3": "^5.0.2"
   }
 }
